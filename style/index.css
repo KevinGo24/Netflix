@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  background-color: black;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  height: 50vh;
+  width: 100%;
+}
+.foto_perfil {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+  height: 150px;
+}
+.texto_perfil{
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+}
+.foto_perfil:hover {
+  box-shadow: 5px 1px 5px white;
+  transform: scale(1.1);
+}
+p {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+button{
+    text-align: center;
+    background-color:transparent ;
+    color: gray;
+    border: 2px gray solid;
+    height: 100%;
+    font-size: 20px;
+    width: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+button:hover{
+  box-shadow: 5px 5px 5px white;
+  transform: scale(1.1);   
+}
